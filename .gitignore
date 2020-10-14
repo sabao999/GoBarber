@@ -1,3 +1,11 @@
+build/
+temp/
+node_modules/
+tmp/*
+!tmp/.gitkeep
+.ideia/
+
+
 # Logs
 logs
 *.log
