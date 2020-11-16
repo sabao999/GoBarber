@@ -1,4 +1,4 @@
 // eslint-disable-next-line import/no-unresolved
-import { createConnection } from 'typeorm';
+import { createConnections } from 'typeorm';
 
-createConnection();
+createConnections();

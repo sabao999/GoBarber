@@ -32,7 +32,7 @@ class AuthenticateUserService {
     const user = await this.usersRepository.findByEmail(email);
 
     if (!user) {
-      throw new AppError('Iconrrect email/password combination.', 401);
+      throw new AppError('Incorrect email/password combination.', 401);
     }
 
     // user.password - Senha criptografada
@@ -44,7 +44,7 @@ class AuthenticateUserService {
     );
 
     if (!passwordMatched) {
-      throw new AppError('Iconrrect email/password combination.', 401);
+      throw new AppError('Incorrect email/password combination.', 401);
     }
 
     // Usuário autenticado

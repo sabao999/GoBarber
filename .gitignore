@@ -4,6 +4,8 @@ node_modules/
 tmp/*
 !tmp/.gitkeep
 .ideia/
+coverage
+ormconfig.json
 
 
 # Logs
